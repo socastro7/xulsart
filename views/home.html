@@ -1,22 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Metadatos-->
         <meta charset="UTF-8">
+        <meta name="author" content="Sofia Castro Murphy">
+        <meta name="description" content="Portfolio y e-commerce de Juliana Ghisi, artista y tatuadora.">
+        <meta name="keywords" content="Arte, Art, Artista, Pintura, Painting, Cuadros, Tatuajes, Tattoo">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Titulo-->
         <title>XulsArt</title>
+
+        <!--Favicon-->
+        <link rel="icon" type="img/x-icon" href="img/logo.png"> 
 
         <!--Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+        
+        <!--Css-->
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         
-        <header></header>
-        <main></main>
+        <header>
+            <!--NavBar Fixed-->
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid justify-content-center">
+                  <div class="column justify-content-center">
+                    <div class="row d-flex align-items-center">
+                      <div class="col col-md-12">
+                        <a class="navbar-brand d-flex justify-content-center" href="#"><img src="img/logo.png" alt="xuls logo" width="120" height="80"></a>
+                      </div>
+                      <div class="col">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="collapse navbar-collapse" id="navbar-toggler">
+                        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Prints</a></li>
+                              <li><a class="dropdown-item" href="#">Mundo mistico</a></li>
+                              <li><a class="dropdown-item" href="#">Cuadros originales</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Tatuajes</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Colaboraciones</a></li>
+                          <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Sobre XULS</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>  
+                </div>
+              
+            </nav>
+        </header>
+        <main>
+          <div class="row ej justify-content-around">      
+            <div class="col d-flex"><img src="img/pudor.jpg" alt="" class="img-fluid"></div>
+            <div class="col d-flex"><img src="img/enroscado.jpg" alt="" class="img-fluid"></div>
+            <div class="col d-flex"><img src="img/tat-flores2.jpg" alt="" class="img-fluid"></div>
+          </div>
+        </main>
         <footer></footer>
-        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
